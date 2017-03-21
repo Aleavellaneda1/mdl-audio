@@ -1,7 +1,7 @@
 # Material Design Lite Audio Player 
 
 ### Synopsis
-An implementation of Google's Material Design Lite applied to Mozilla Developer Network's [Cross-browser audio basics](https://developer.mozilla.org/en-US/Apps/Fundamentals/Audio_and_video_delivery/Cross-browser_audio_basics).
+An implementation of Google's [Material Design Lite](https://github.com/google/material-design-lite) applied to Mozilla Developer Network's [Cross-browser audio basics](https://developer.mozilla.org/en-US/Apps/Fundamentals/Audio_and_video_delivery/Cross-browser_audio_basics).  An audio player user interface for mobile, tablet, and desktops.
 ### Code Example
 
 ### [LIVE DEMO](http://rack.pub/mdl-audio)
@@ -14,9 +14,11 @@ Getting my music library online and I wanted a slick looking UI, one that would 
 
 ### Installation
 
-:hand: PREREQUISITE: Your audio and image files must be online.  If you are serving this code via HTTPS then the audio and image files must also be retrieved via HTTPS.
+Copy and Paste easy.
 
-Copy and Paste easy.  The easiest way to install this example is to clone or download it.  Replace my audio and image paths with your own.  Copy and paste style.
+:hand: PREREQUISITE: Your audio and image files must be online already.  If you are serving this code via HTTPS then the audio and image files must also be retrieved via HTTPS.
+
+The easiest way to install this example is to clone or download it.  Replace my audio and image paths with your own.  Copy and paste style.
 
 ### Contribute
 
