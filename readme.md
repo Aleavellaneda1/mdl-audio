@@ -1,13 +1,12 @@
 # Material Design Lite Audio Player 
-# Complete Working Example
-### Synopsis
 
+### Synopsis
 An implementation of Google's Material Design Lite applied to Mozilla Developer Network's [Cross-browser audio basics](https://developer.mozilla.org/en-US/Apps/Fundamentals/Audio_and_video_delivery/Cross-browser_audio_basics).
 ### Code Example
 
 ### [LIVE DEMO](http://rack.pub/mdl-audio)
 
-<img src="https://github.com/rhroyston/rhroyston.github.io/blob/master/mdl-audio.jpg" alt="screenshot">
+<img src="https://github.com/rhroyston/rhroyston.github.io/blob/master/mdlAudioPlayer.jpg" alt="screenshot">
 
 ### Motivation
 
