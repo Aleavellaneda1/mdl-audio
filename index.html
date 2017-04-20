@@ -120,6 +120,28 @@
 		.hidden {
 			display: none;
 		}
+		.highlight{
+		    animation-duration: 2s;
+		    animation-name: glow;
+		    animation-iteration-count: infinite;
+		    animation-direction: alternate;
+		}
+		@keyframes glow {
+		  from {
+		    -webkit-box-shadow: 0px 0px 4px 4px rgba(255, 109, 0, 1);
+		    -moz-box-shadow: 0px 0px 4px 4px rgba(255, 109, 0, 1);
+		    box-shadow: 0px 0px 4px 4px rgba(255, 109, 0, 1);
+		  }
+		
+		  to {
+		    -webkit-box-shadow: 0px 0px 24px 4px rgba(255, 214, 0, 1);
+		    -moz-box-shadow: 0px 0px 24px 4px rgba(255, 214, 0, 1);
+		    box-shadow: 0px 0px 24px 4px rgba(255, 214, 0, 1);
+		  }
+		}
+		.transparency{
+		    opacity:.2;
+		}
 	</style>
 </head>
 
@@ -130,7 +152,7 @@
 
 			<div class="mdl-grid content-center">
 				<!-- Song -->
-				<div class="mdl-card song-card mdl-shadow--2dp mdl-cell" style="background: url('//sunnymarx.com/media/3.5%20Remix%20Mixtape%20-%20Front%20Cover.jpg') center / cover;">
+				<div id="1" class="mdl-card song-card mdl-shadow--2dp mdl-cell" style="background: url('//sunnymarx.com/media/3.5%20Remix%20Mixtape%20-%20Front%20Cover.jpg') center / cover;">
 					<div class="mdl-card__title mdl-card--expand"></div>
 					<div class="mdl-card__actions">
 						<div class="control progress">
@@ -154,9 +176,14 @@
 						<source src="//rack.international/sunnymarx/TheWeeknd-3-5SunnyMarxRemixesVol-2/Real%20Life%20(SunnyMarxRemix).ogg" type="audio/ogg">
 						Your browser does not support the audio element.
 					</audio>
+					<div class="mdl-card__menu">
+						<button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect share">
+					    	<i class="material-icons mdl-color-text--black">share</i>
+					    </button>
+					</div>
 				</div>
 				<!-- Song -->
-				<div class="mdl-card song-card mdl-shadow--2dp mdl-cell" style="background: url('//sunnymarx.com/media/The%20Weeknd%20-%20The%20Hills%20(SunnyMarxRemix).jpg') center / cover;">
+				<div id="2" class="mdl-card song-card mdl-shadow--2dp mdl-cell" style="background: url('//sunnymarx.com/media/The%20Weeknd%20-%20The%20Hills%20(SunnyMarxRemix).jpg') center / cover;">
 					<div class="mdl-card__title mdl-card--expand"></div>
 					<div class="mdl-card__actions">
 						<div class="control progress">
@@ -180,9 +207,14 @@
 						<source src="//rack.international/sunnymarx/TheWeeknd-3-5SunnyMarxRemixesVol-2/The%20Hills%20(SunnyMarxRemix).ogg" type="audio/ogg">
 						Your browser does not support the audio element.
 					</audio>
+					<div class="mdl-card__menu">
+						<button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect share">
+					    	<i class="material-icons mdl-color-text--white">share</i>
+					    </button>
+					</div>
 				</div>
 				<!-- Song -->
-				<div class="mdl-card song-card mdl-shadow--2dp mdl-cell" style="background: url('//sunnymarx.com/media/The%20Weeknd%20-%20Drinks%20On%20Us%20(SunnyMarxRemix).jpg') center / cover;">
+				<div id="3" class="mdl-card song-card mdl-shadow--2dp mdl-cell" style="background: url('//sunnymarx.com/media/The%20Weeknd%20-%20Drinks%20On%20Us%20(SunnyMarxRemix).jpg') center / cover;">
 					<div class="mdl-card__title mdl-card--expand"></div>
 					<div class="mdl-card__actions">
 						<div class="control progress">
@@ -206,9 +238,14 @@
 						<source src="//rack.international/sunnymarx/TheWeeknd-3-5SunnyMarxRemixesVol-2/Drinks%20On%20Us%20(SunnyMarxRemix).ogg" type="audio/ogg">
 						Your browser does not support the audio element.
 					</audio>
+					<div class="mdl-card__menu">
+						<button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect share">
+					    	<i class="material-icons mdl-color-text--white">share</i>
+					    </button>
+					</div>
 				</div>
 				<!-- Song -->
-				<div class="mdl-card song-card mdl-shadow--2dp mdl-cell" style="background: url('//sunnymarx.com/media/The%20Weeknd%20x%20Michael%20Jackson%20-%20Dirty%20Diana%20(SunnyMarxRemix).jpg') center / cover;">
+				<div id="4" class="mdl-card song-card mdl-shadow--2dp mdl-cell" style="background: url('//sunnymarx.com/media/The%20Weeknd%20x%20Michael%20Jackson%20-%20Dirty%20Diana%20(SunnyMarxRemix).jpg') center / cover;">
 					<div class="mdl-card__title mdl-card--expand"></div>
 					<div class="mdl-card__actions">
 						<div class="control progress">
@@ -232,9 +269,14 @@
 						<source src="//rack.international/sunnymarx/TheWeeknd-3-5SunnyMarxRemixesVol-2/Dirty%20Diana%20Ft%20Michael%20Jackson%20(SunnyMarxRemix).ogg" type="audio/ogg">
 						Your browser does not support the audio element.
 					</audio>
+					<div class="mdl-card__menu">
+						<button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect share">
+					    	<i class="material-icons mdl-color-text--white">share</i>
+					    </button>
+					</div>
 				</div>
 				<!-- Song -->
-				<div class="mdl-card song-card mdl-shadow--2dp mdl-cell" style="background: url('//sunnymarx.com/media/The%20Weeknd%20-%20Twenty%208%20(SunnyMarxRemix).jpg') center / cover;">
+				<div id="5" class="mdl-card song-card mdl-shadow--2dp mdl-cell" style="background: url('//sunnymarx.com/media/The%20Weeknd%20-%20Twenty%208%20(SunnyMarxRemix).jpg') center / cover;">
 					<div class="mdl-card__title mdl-card--expand"></div>
 					<div class="mdl-card__actions">
 						<div class="control progress">
@@ -258,9 +300,14 @@
 						<source src="//rack.international/sunnymarx/TheWeeknd-3-5SunnyMarxRemixesVol-2/Twenty8%20(SunnyMarxRemix).ogg" type="audio/ogg">
 						Your browser does not support the audio element.
 					</audio>
+					<div class="mdl-card__menu">
+						<button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect share">
+					    	<i class="material-icons mdl-color-text--black">share</i>
+					    </button>
+					</div>
 				</div>
 				<!-- Song -->
-				<div class="mdl-card song-card mdl-shadow--2dp mdl-cell" style="background: url('//sunnymarx.com/media/The%20Weeknd%20-%20Where%20You%20Belong%20(SunnyMarxRemix).jpg') center / cover;">
+				<div id="6" class="mdl-card song-card mdl-shadow--2dp mdl-cell" style="background: url('//sunnymarx.com/media/The%20Weeknd%20-%20Where%20You%20Belong%20(SunnyMarxRemix).jpg') center / cover;">
 					<div class="mdl-card__title mdl-card--expand"></div>
 					<div class="mdl-card__actions">
 						<div class="control progress">
@@ -284,13 +331,22 @@
 						<source src="//rack.international/sunnymarx/TheWeeknd-3-5SunnyMarxRemixesVol-2/Where%20You%20Belong%20(SunnyMarxRemix).ogg" type="audio/ogg">
 						Your browser does not support the audio element.
 					</audio>
+					<div class="mdl-card__menu">
+						<button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect share">
+					    	<i class="material-icons mdl-color-text--white">share</i>
+					    </button>
+					</div>
 				</div>
 			</div>
 			<!-- GRID CLOSING TAG -->
 
 		</main>
 	</div>
-
+	<!--Toast Messages Markup -->
+	<div id="toast" class="mdl-js-snackbar mdl-snackbar">
+		<div class="mdl-snackbar__text"></div>
+		<button class="mdl-snackbar__action" type="button"></button>
+	</div>
 	<script type='application/ld+json'>
 		{
 			"@context": "http://www.schema.org",
@@ -309,37 +365,43 @@
 
 	<script>
 		/*
-		             Material Design Lite Audio Player crafted with love and lots of coffee.
-		             (c) 2017, Ron Royston, MIT License
-		             https://rack.pub
-		             
-		             Based on MDN's Cross-browser audio basics https://developer.mozilla.org/en-US/Apps/Fundamentals/Audio_and_video_delivery/Cross-browser_audio_basics
-		            */
-
+         Material Design Lite Audio Player crafted with love and lots of coffee.
+         (c) 2017, Ron Royston, MIT License
+         https://rack.pub
+         
+         Based on MDN's Cross-browser audio basics https://developer.mozilla.org/en-US/Apps/Fundamentals/Audio_and_video_delivery/Cross-browser_audio_basics
+        */
+		
 		document.addEventListener('DOMContentLoaded', function() {
 			var doc = document;
-			window.snackbarContainer = doc.querySelector('#toast');
-
 			var files = doc.getElementsByTagName('audio');
 			var sliders = doc.getElementsByClassName('bar');
 			var previousButtons = doc.getElementsByClassName('previous-button');
 			var playButtons = doc.getElementsByClassName('play-button');
 			var pauseButtons = doc.getElementsByClassName('pause-button');
 			var nextButtons = doc.getElementsByClassName('next-button');
+			var shareButtons = doc.getElementsByClassName('share');
+			window.snackbarContainer = doc.querySelector('#toast');
 			var songs = [];
 			var index = 0;
-
+			
 			var Song = function(element) {
 				var slider;
 				this.index = index;
 				var thisSong = files[this.index - 1];
 				var nextSong = files[this.index];
 				var playBtn = element.previousElementSibling.getElementsByClassName("play-button")[0];
+				
 				this.playing = function(event) {
 					slider = thisSong.previousElementSibling.getElementsByTagName("input")[0];
+					//remove hash and highlight effect frmo all elements
+					removeHash ();
+					for (var len = files.length, i = 0; i < len; ++i) {
+						files[i].parentElement.classList.remove("highlight");
+						files[i].parentElement.classList.remove("transparency");
+					}
 					try {
 						nextSong.preload = "auto";
-						//var playBtn = element.previousElementSibling.getElementsByClassName("play-button")[0];
 						playBtn.classList.add("hidden");
 						playBtn.nextElementSibling.classList.remove("hidden");
 					}
@@ -347,7 +409,6 @@
 				};
 				this.ended = function(event) {
 					try {
-						//======================================================================
 						thisSong.currentTime = 0;
 						playBtn.classList.remove("hidden");
 						playBtn.nextElementSibling.classList.add("hidden");
@@ -365,25 +426,42 @@
 				element.addEventListener('ended', this.ended.bind(this), false);
 				element.addEventListener('timeupdate', this.timeupdate.bind(this), false);
 			};
-
+			
+			if (window.location.hash) {
+				var str = window.location.hash;
+				str = str.replace("#", "");
+				//remove highlight effect frmo all elements
+				for (var len = files.length, i = 0; i < len; ++i) {
+					files[i].parentElement.classList.remove("highlight");
+					files[i].parentElement.classList.add("transparency");
+				}
+				//add highlight to provided hashtag
+				files[str - 1].parentElement.classList.remove("transparency");
+				files[str - 1].parentElement.classList.add("highlight");
+				//fix scroll to hash issue
+				window.addEventListener("load", function(event) {
+					files[str - 1].parentElement.scrollIntoView();
+				});
+			}
+		
 			for (var len = files.length, i = 0; i < len; ++i) {
 				index++;
 				songs.push(new Song(files[i]));
 			}
-
+		
 			function pauseAllSongs() {
 				for (var len = files.length, i = 0; i < len; ++i) {
 					files[i].pause();
 				}
 			}
-
+		
 			for (var len = sliders.length, i = 0; i < len; ++i) {
 				sliders[i].addEventListener("click", function() {
 					var thisSong = this.parentElement.parentElement.parentElement.nextElementSibling;
 					thisSong.currentTime = (this.value / 100) * thisSong.duration;
 				});
 			}
-
+		
 			for (var len = previousButtons.length, i = 0; i < len; ++i) {
 				previousButtons[i].addEventListener("click", function() {
 					var thisSong = this.parentElement.parentElement;
@@ -394,30 +472,27 @@
 					}
 				});
 			}
-
+		
 			for (var len = playButtons.length, i = 0; i < len; ++i) {
 				playButtons[i].addEventListener("click", function() {
 					var audio = this.parentElement.nextElementSibling;
 					audio.play();
-					//show pause button now
 					this.classList.toggle("hidden");
 					this.nextElementSibling.classList.toggle("hidden");
 				});
 			}
-
+		
 			for (var len = pauseButtons.length, i = 0; i < len; ++i) {
 				pauseButtons[i].addEventListener("click", function() {
 					var audio = this.parentElement.nextElementSibling;
 					audio.pause();
-					audio.removeEventListener('timeupdate', function() {
-
-					});
-					//show play button now
+		
+					audio.removeEventListener('timeupdate', function() {});
 					this.classList.toggle("hidden");
 					this.previousElementSibling.classList.toggle("hidden");
 				});
 			}
-
+		
 			for (var len = nextButtons.length, i = 0; i < len; ++i) {
 				nextButtons[i].addEventListener("click", function() {
 					// if there is a previous song, play it.  otherwise do nothing.
@@ -429,6 +504,53 @@
 					}
 				});
 			}
+		
+			for (var len = shareButtons.length, i = 0; i < len; ++i) {
+				shareButtons[i].addEventListener("click", function() {
+					toast(window.location.href + "#" + this.parentElement.parentElement.id,10000);
+				});
+			}
+		
+			function getArg(param) {
+				var vars = {};
+				window.location.href.replace(location.hash, '').replace(
+					/[?&]+([^=&]+)=?([^&]*)?/gi, // regexp
+					function(m, key, value) { // callback
+						vars[key] = value !== undefined ? value : '';
+					}
+				);
+				if (param) {
+					return vars[param] ? vars[param] : null;
+				}
+				return vars;
+			}
+			
+			function removeHash () { 
+			    var scrollV, scrollH, loc = window.location;
+			    if ("pushState" in history)
+			        history.pushState("", doc.title, loc.pathname + loc.search);
+			    else {
+			        // Prevent scrolling by storing the page's current scroll offset
+			        scrollV = doc.body.scrollTop;
+			        scrollH = doc.body.scrollLeft;
+			        loc.hash = "";
+			        // Restore the scroll offset, should be flicker free
+			        doc.body.scrollTop = scrollV;
+			        doc.body.scrollLeft = scrollH;
+			    }
+			}	
+			//TOAST
+			function toast(msg, timeout) {
+				if (!timeout) {
+					timeout = 2750
+				}
+				var data = {
+					message: msg,
+					timeout: timeout
+				};
+				snackbarContainer.MaterialSnackbar.showSnackbar(data);
+			};
+		
 		}, false);
 	</script>
 	<script defer src="//code.getmdl.io/1.3.0/material.min.js"></script>
