@@ -1,7 +1,7 @@
 # Material Design Lite Audio Player 
 
 ### Synopsis
-A mobile friendly implementation of Google's [Material Design Lite](https://github.com/google/material-design-lite) applied to Mozilla Developer Network's [Cross-browser audio basics](https://developer.mozilla.org/en-US/Apps/Fundamentals/Audio_and_video_delivery/Cross-browser_audio_basics).  An audio player user interface for mobile, tablet, and desktops.  Next song autoloads.  All songs initially set to load metadata only.
+A mobile friendly implementation of Google's [Material Design Lite](https://github.com/google/material-design-lite) applied to Mozilla Developer Network's [Cross-browser audio basics](https://developer.mozilla.org/en-US/Apps/Fundamentals/Audio_and_video_delivery/Cross-browser_audio_basics).  An audio player user interface for mobile, tablet, and desktops.  Next song autoloads.  All songs initially set to load metadata only.  Sharing a song is supported with hashtagged URL.
 ### Code Example
 
 ### [LIVE DEMO](http://rack.pub/mdl-audio)
